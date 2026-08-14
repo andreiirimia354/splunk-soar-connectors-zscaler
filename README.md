@@ -8,6 +8,8 @@ Minimum Product Version: 6.2.2
 
 This app implements containment and investigative actions on Zscaler
 
+**NOTE:** Zscaler is deprecating https://admin.<Zscaler Cloud Name> for Public API traffic in September. In the app's asset settings, update the Base URL to https://zsapi.<Zscaler Cloud Name> to ensure the app continues working.
+
 This app supports either authentication method below (one complete method is required):
 
 - **API session authentication:** `username`, `password`, and `api_key`
@@ -82,7 +84,7 @@ This table lists the configuration variables required to operate Zscaler. These 
 
 VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
-**base_url** | required | string | Base URL (e.g. https://admin.zscaler_instance.net) |
+**base_url** | required | string | Base URL (e.g. https://zsapi.zscaler_instance.net) |
 **api_key** | optional | password | API Key |
 **username** | optional | string | Username |
 **password** | optional | password | Password |

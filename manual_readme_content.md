@@ -1,3 +1,5 @@
+**NOTE:** Zscaler is deprecating https://admin.<Zscaler Cloud Name> for Public API traffic in September. In the app's asset settings, update the Base URL to https://zsapi.<Zscaler Cloud Name> to ensure the app continues working.
+
 This app supports either authentication method below (one complete method is required):
 
 - **API session authentication:** `username`, `password`, and `api_key`

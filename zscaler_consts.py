@@ -23,6 +23,7 @@ ZSCALER_STATE_FILE_CORRUPT_ERR = (
 )
 ZSCALER_MAX_PAGESIZE = 1000
 ZSCALER_DEFAULT_TIMEOUT = 30
+ZSCALER_MAX_RETRY_WAIT_SECONDS = 60
 ZSCALER_ENCRYPTION_ERROR_MSG = "Error occurred while encrypting access token: {}"
 ZSCALER_DECRYPTION_ERROR_MSG = "Error occurred while decrypting access token: {}"
 
