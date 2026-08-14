@@ -21,8 +21,8 @@ import re
 import subprocess
 import sys
 import time
-from urllib.parse import quote
 from datetime import datetime, timedelta
+from urllib.parse import quote
 
 import encryption_helper
 import phantom.app as phantom
